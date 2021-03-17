@@ -1,5 +1,5 @@
 ### Introduction
-It consists of 2 services: frontend and administrator panel
+It consists of 2 services: frontend and administrator panel.
 It uses React.js (for frontend) and Adonis.js (for backend)
 
 https://facebook.github.io/create-react-app/docs/adding-a-router
