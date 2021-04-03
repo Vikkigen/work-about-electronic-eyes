@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
 import './HeaderStyles.css';
-
+//This class Header for showing us three parts of App class in comfortable way
 class Header extends Component {
   
   render() {
     return (
+      /**Here we create a select menu to select language in the future for our site.
+       * Also, we have some space between select form and main titles.
+       */
     <div className="headerBlock">
   <select name="language" id="language">
     <option value="English">English</option>
@@ -18,7 +21,7 @@ class Header extends Component {
       </div>
     </div>
   </nav>
-  
+
   <div className="bg-brand-blue  px-8 py-8 mb-8">
   <h1 className="font-bold uppercase text-x12 mb-4 text-white text-center">electronic eyes</h1>
   <p className="mb-8  text-white text-center">Help for visually impaired people</p>

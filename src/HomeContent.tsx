@@ -1,5 +1,7 @@
 import React, { Component} from 'react';
-
+/**
+ * At yet not used Component HomeContent
+ */
 export default class HomeContent extends Component{
   render() {
     return (

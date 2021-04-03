@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import './BirthdayStyles.css';
 import {ThemeContext} from './theme-context';
+/**
+ * This component class Birthday have a title and some paragraphs 
+ * Here we can see prices of congratulating by a cartoon at Birthday
+ */
 
 class Birthday extends Component {
   render() {

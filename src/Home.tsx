@@ -4,13 +4,16 @@ import './HomeStyles.css';
 //const HomeContent = lazy(() => import('./HomeContent'));
 //import HomeContent from './HomeContent';
 
+/**
+ * Component Home show to us list, with the main services on site in the <ol> list
+ */
 export default class Home extends Component{
   render() {
     return (
 <div className="HomeBlock">
 <p></p>
 <h2>Home</h2>
-<p>The following products and services are offered for our customers:</p>
+<p className="homeParagraph">The following products and services are offered for our customers:</p>
 <ol>
   <li>
   Application which helps blind people to 'see' the surrounding objects with the help of AI-based software.

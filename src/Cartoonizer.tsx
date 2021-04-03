@@ -1,6 +1,9 @@
 import React, { Component} from 'react';
 import './CartoonizerStyles.css';
-
+/**
+ * component Cartoonizer show for us price of converting a photo to a cartoon 
+ * Have a title and paragraph
+ */
  class Cartoonizer extends Component{
   render() {
       return(

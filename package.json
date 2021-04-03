@@ -1,25 +1,30 @@
-{
+{ 
+  "name": "jsdoc_example",
   "version": "0.1.0",
+  "main": "documentation.js",
   "private": true,
   "dependencies": {
     "@types/jest": "^26.0.20",
     "@types/node": "^14.14.34",
     "@types/react": "^17.0.3",
     "@types/react-dom": "^17.0.2",
+    "enzyme-adapter-react-16": "^1.15.6",
     "express": "^4.17.1",
     "multer": "^1.4.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-router": "^5.0.0",
     "react-router-dom": "^5.0.0",
-    "react-scripts": "2.1.8",
+    "react-scripts": "^4.0.3",
+    "react-test-renderer": "^17.0.2",
     "typescript": "^4.2.3"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "doc": "jsdoc -c jsdoc.json" 
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -31,6 +36,8 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "@types/react-router-dom": "^5.1.7"
+    "@types/react-router-dom": "^5.1.7",
+    "enzyme": "^3.11.0",
+    "jsdoc": "^3.6.6"
   }
 }

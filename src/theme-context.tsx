@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+/**
+ * component for select button to change language
+ */
 
 export const themes = {
   en: {

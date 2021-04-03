@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import './SolutionStyles.css';
+/**
+ * Component Solution with a title and text about the problem of blind people and solution to it
+ */
 
 class Solution extends Component {
  /* constructor(props){
